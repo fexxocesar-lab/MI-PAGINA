@@ -1,0 +1,72 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contacto | CETPRO Público Huaral</title><link rel="stylesheet" href="style.css"></head><body><header class="header"><div class="logo"><strong>CETPRO PÚBLICO HUARAL</strong><span>PLATAFORMAS Y SERVICIOS TI</span></div><nav class="menu" aria-label="Menú principal"><a href="index.html" class="">Inicio</a><a href="nosotros.html" class="">Nosotros</a><a href="especialidad.html" class="">Especialidad</a><a href="servicios.html" class="">Servicios</a><a href="multimedia.html" class="">Multimedia</a><a href="contacto.html" class="activo">Contacto</a></nav></header><main class="contenido"><h1>Contáctanos</h1><p>Completa el siguiente formulario de ejemplo.</p><form class="formulario" onsubmit="event.preventDefault();document.getElementById('aviso').hidden=false;"><label for="nombre">Nombre completo:</label><input id="nombre" name="nombre" required><label for="correo">Correo electrónico:</label><input type="email" id="correo" name="correo" required><label for="asunto">Asunto:</label><input id="asunto" name="asunto" required><label for="mensaje">Mensaje:</label><textarea id="mensaje" name="mensaje" rows="5" required></textarea><button type="submit">Enviar mensaje</button><p id="aviso" class="nota" hidden>Formulario de demostración: el mensaje no se envió a ningún servidor.</p></form><p class="nota">No ingreses datos personales reales durante las pruebas.</p></main><footer class="footer">© 2026 CETPRO Público Huaral · Plataformas y Servicios TI</footer></body></html>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | Plataformas y Servicios TI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <strong>CETPRO PÚBLICO HUARAL</strong>
+            <span>PLATAFORMAS Y SERVICIOS TI</span>
+        </div>
+
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="especialidad.html">Especialidad</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="multimedia.html">Multimedia</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="contenido">
+
+        <h1>Contáctanos</h1>
+
+        <p>
+            Completa el siguiente formulario de ejemplo.
+        </p>
+
+        <form class="formulario">
+
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre"
+                   name="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo"
+                   name="correo" required>
+
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto"
+                   name="asunto" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"
+                      rows="5" required></textarea>
+
+            <button type="submit">
+                Enviar mensaje
+            </button>
+
+        </form>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 CETPRO Público Huaral</p>
+    </footer>
+
+</body>
+</html>
